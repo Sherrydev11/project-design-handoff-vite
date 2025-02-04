@@ -78,7 +78,7 @@ const HeroContainer = styled.div`
 
 const HeroImage = styled.img`
   width: 100%;
-  height: 535px;
+  height: 700px;
   padding-bottom: 72px;
   display: flex;
   flex-direction: column;
@@ -101,12 +101,14 @@ const HeroText = styled.div`
 `;
 
 const HeroTitle = styled.h1`
-font-size: 40px;
+  font-size: 40px;
   margin-bottom: 25px;
   margin-top: 30px;
-
-
+  color: white; 
+  -webkit-text-stroke: 1px black; 
+  -webkit-text-fill-color: white; 
 `;
+
 
 const HeroSubtitle = styled.p`
  font-size: 24px;
